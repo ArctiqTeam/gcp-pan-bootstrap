@@ -27,7 +27,7 @@ Name   |   Description   |   Default
 **pan_int_0_name** | Interface name for the Management interface | None 
 **pan_machine_type** | Machine type for PAN Devices | n1-standard-4 
 **pan_cpu** | CPU for the PAN Device | Intel Skylake 
-**pan_scopes** | API Scopes for the PAN Device | "cloud.useraccounts.readonly","devstorage.read_only","logging.write", "monitoring.write" 
+**pan_scopes** | API Scopes for the PAN Device | "cloud.useraccounts.readonly", "devstorage.read_only", "logging.write", "monitoring.write" 
 
 ## Recommendations
 
