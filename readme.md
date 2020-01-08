@@ -8,7 +8,7 @@ This example showcases deploying a PAN device as a standalone GCE Intance with a
 ## Variables
 
 Name   |   Description   |   Default  
---- | --- | --- | ---
+--- | --- | --- 
 **gcp_project_id** | Target GCP Project ID | None 
 **gcp_credentials** | Path to the GCP Service Account json key file | None 
 **zone** | GCP Zone to deploy into [ref](https://cloud.google.com/compute/docs/regions-zones/) | us-central1-a 
