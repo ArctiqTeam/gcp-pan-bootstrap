@@ -1,15 +1,14 @@
 # GCP Project Vars
-gcp_project_id = "p-teckresources-tfe"
-gcp_credentials = "/home/mleblanc/secrets/p-tr-tfe.json"
+gcp_project_id = "your_gcp_project_id"
+gcp_credentials = "/path_to/your_gcp_serviceaccount.json"
 
 # Bootstrap vars
-bootstrap_bucket  = "pan_bootstrapaa"
-bootstrap_bucket_admin = "marc.leblanc@arctiq.ca"
+bootstrap_bucket  = "your_bootstrap_bucketname"
+bootstrap_bucket_admin = "your_gcs_admin@your_gcporg.com"
 bootstrap_folders = ["config/", "software/", "license/", "content/"]
 
 # PAN Vars
 pan_fw_image =   "https://www.googleapis.com/compute/v1/projects/paloaltonetworksgcp-public/global/images/vmseries-byol-904"
-#management_ip  = "10.5.1.4"
 untrust_ip     = "10.5.1.4"
 management_source_ips = ["0.0.0.0/0"]
 
