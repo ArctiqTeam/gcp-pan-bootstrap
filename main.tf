@@ -127,7 +127,7 @@ resource "google_compute_firewall" "allow-mgmt" {
   source_ranges = var.management_source_ips
 }
 
-// Create a new Palo Alto Networks NGFW VM-Series GCE instance
+# GCE Instance setup 
 resource "google_compute_instance" "firewall" {
   project                   = var.gcp_project_id
   name                      = var.pan_fw_name
