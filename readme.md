@@ -33,6 +33,8 @@ Name   |   Description   |   Default
 
 Given the variable nature of the PAN configurations, it is recommended to leverage a minimum acceptable config for bootstrap.xml populated into the /config bootstrap folder and apply the working policy upon completion of bootstrapping. The included boostrap.xml will apply a configuration for a 3 tier web app consisting of a Web network (trust), DB network (trust), Management network and an Untrust network. An alternate approach to a static bootstrap file would be to leverage jinja templates and populate variables accordingly. 
 
+Login configured in this bootstrap.xml file: paloalto / Pal0Alt0@123 . **Do not use this for production**
+
 ## Usage
 
 1) Set up **terraform.tfvars**  with appropriate values for your project
@@ -42,4 +44,5 @@ Given the variable nature of the PAN configurations, it is recommended to levera
 The device can take a few minutes to boot and be available on the public IP assigned.
 
 *Note:* it is assumed you already have a GCP project and Service Account created.
+
 **Final note:**  there is no authcode file included. This demo will bring the device online, but it will not pass traffic until a valid license has been applied. 
